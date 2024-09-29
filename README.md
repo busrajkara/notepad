@@ -1,12 +1,23 @@
-# notepad
+# Hello Kitty Not Defteri
 
-### Açıklama
-- **Proje Başlığı**: Projenin adı.
-- **Özellikler**: Uygulamanın temel özelliklerini tanıtan bir liste.
-- **Teknolojiler**: Projede kullanılan teknolojiler.
-- **Kurulum**: Projeyi nasıl kuracağınızı açıklayan adımlar.
-- **Kullanım**: Uygulamanın nasıl kullanılacağına dair kısa bir rehber.
-- **Katkıda Bulunanlar**: Projeye katkıda bulunan kişilerin isimleri.
-- **Lisans**: Projeye hangi lisansın uygulandığı.
+Bu proje, notlarınızı şık bir Hello Kitty temasıyla kaydetmenizi ve yönetmenizi sağlayan bir web uygulamasıdır.
 
-Bu dosyayı oluşturduktan sonra GitHub'a yükleyebilirsin. Başka bir şeyle yardımcı olabilir miyim?
+## Özellikler
+
+- **Not Ekleme**: Kullanıcılar notlarını, yazar adını ve kategorisini ekleyebilir.
+- **Notları Görüntüleme**: Eklenen notlar liste halinde görüntülenir.
+- **Not Arama**: Notlar, kategoriye göre aranabilir.
+- **Not Silme**: Kullanıcılar ekledikleri notları silebilir.
+  
+## Kullanılan Teknolojiler
+
+- **HTML**: Sayfa yapısı.
+- **CSS**: Hello Kitty temalı görsel düzenlemeler.
+- **JavaScript**: Dinamik işlemler.
+- **JSON**: Not verilerini depolama.
+  
+## Kurulum
+
+1. Bu projeyi bilgisayarınıza klonlayın:
+   ```bash
+   git clone https://github.com/kullanici_adiniz/hello-kitty-not-defteri.git
