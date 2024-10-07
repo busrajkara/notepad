@@ -19,14 +19,13 @@ Bu proje, notlarınızı şirin bir Hello Kitty temasıyla kaydetmenizi ve yöne
 ## Kurulum
 
 ### 1. Bu projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone https://github.com/kullanici_adiniz/hello-kitty-not-defteri.git
-### 2.Proje dizinine gidin:
+   git clone https://github.com/kullanici_adiniz/hello-kitty-not-defteri.git 
+### 2. Proje dizinine gidin:
 cd hello-kitty-not-defteri
-### 3.Projeyi yerel sunucunuzda çalıştırın:
-
+### 3. Projeyi yerel sunucunuzda çalıştırın:
 Bir web sunucusu kullanıyorsanız, dizini kök klasörüne yerleştirerek projeyi çalıştırabilirsiniz.
 Alternatif olarak, tarayıcınızda index.html dosyasını açarak doğrudan projeyi inceleyebilirsiniz.
+
 ## Kullanım Adımları
 
 Projeyi tarayıcıda açtıktan sonra, aşağıdaki adımları takip edebilirsiniz:
@@ -36,5 +35,8 @@ Projeyi tarayıcıda açtıktan sonra, aşağıdaki adımları takip edebilirsin
 - [ ] **Not Arama**: Üst kısımda yer alan arama kutusunu kullanarak notlarınızı kategoriye göre filtreleyin.
 - [ ] **Not Silme**: Eklediğiniz notların yanında bulunan çöp kutusu simgesine tıklayarak notları silebilirsiniz.
 
-
-Bu dosyayı `README.md` adıyla kaydedip GitHub reposuna ekleyebilirsin.
+# Kullanılan Teknolojiler
+HTML
+CSS: Hello Kitty temalı stil dosyaları
+JavaScript: Dinamik işlemler
+JSON: Not verilerini depolama
