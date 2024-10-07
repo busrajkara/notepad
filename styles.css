@@ -1,0 +1,105 @@
+/* Temel stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; /* Hello Kitty pembe tonu */
+    color: #333;
+    background-image: url('../images/background.jpg'); /* Hello Kitty arka plan */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Başlık kısmı */
+h1 {
+    color: #ff69b4; /* Pembe renk */
+    text-align: center; /* Ortala */
+    font-family: 'Comic Sans MS', sans-serif; /* Eğlenceli font */
+    margin-bottom: 30px; /* Alt boşluk */
+    font-size: 36px; /* Font boyutu */
+    text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.5); /* Gölge efekti */
+    background-color: rgba(255, 228, 225, 0.7); /* Toz pembe arka plan kutusu */
+    padding: 20px; /* Başlık etrafında boşluk */
+    border-radius: 15px; /* Kenarları yumuşat */
+}
+
+/* Hello Kitty ikonları */
+.hello-kitty-icon {
+    width: 50px; /* İkonun genişliği */
+    height: auto; /* Orantılı yükseklik */
+    vertical-align: middle; /* Metinle hizala */
+    margin-left: 10px; /* Sol boşluk */
+}
+
+/* Pembe düğme */
+.btn-pink {
+    background-color: #ff69b4; /* Düğme arka plan rengi */
+    color: white; /* Düğme metin rengi */
+    border: none; /* Kenar çizgisi yok */
+}
+
+.btn-pink:hover {
+    background-color: #ff1493; /* Hover durumu rengi */
+}
+
+/* Not kutuları */
+.note-box {
+    background: #ffeef8; /* Pembe arka plan */
+    margin: 10px; /* Dış boşluk */
+    border-radius: 8px; /* Hafif yuvarlatılmış köşeler */
+    padding: 15px; /* İç boşluk */
+    border: 2px solid #ff69b4; /* Pembe kenar çizgisi */
+    min-height: 150px; /* Minimum yükseklik */
+    position: relative; /* Silme butonu için konumlandırma */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: transform 0.2s; /* Hover efekti */
+}
+
+.note-box:hover {
+    transform: translateY(-5px); /* Hover durumunda yukarı kayma */
+}
+
+/* Silme butonu */
+.delete-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent; /* Buton arka planı */
+    border: none; /* Buton kenar çizgisi yok */
+    cursor: pointer; /* Fare imleci değişimi */
+    color: #ff69b4; /* Silme butonu rengi */
+    font-size: 1.2em; /* Font boyutu */
+}
+
+.delete-button:hover {
+    color: #ff1493; /* Hover durumu rengi */
+}
+
+/* Arama kutusu */
+.search-box {
+    display: flex; /* Flexbox ile düzenle */
+    align-items: center; /* Dikey merkezleme */
+    margin: 20px 0; /* Üst ve alt boşluk */
+}
+
+.search-box .form-control {
+    flex: 1; /* Esnek alan */
+    margin-right: 10px; /* Buton ile boşluk */
+}
+
+/* İkon ayarları */
+.search-box .icon {
+    width: 45px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+    .note-box {
+        min-height: 180px;
+    }
+
+    .hello-kitty-icon {
+        width: 40px;
+    }
+}
