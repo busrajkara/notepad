@@ -19,7 +19,7 @@ Bu proje, notlarınızı şirin bir Hello Kitty temasıyla kaydetmenizi ve yöne
 ## Kurulum
 
 ### 1. Bu projeyi bilgisayarınıza klonlayın:
-   git clone https://github.com/kullanici_adiniz/hello-kitty-not-defteri.git 
+   git clone URLYİ GİRİN
 ### 2. Proje dizinine gidin:
 cd hello-kitty-not-defteri
 ### 3. Projeyi yerel sunucunuzda çalıştırın:
