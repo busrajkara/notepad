@@ -16,15 +16,6 @@ Bu proje, notlarınızı şirin bir Hello Kitty temasıyla kaydetmenizi ve yöne
 - **JavaScript**: Not ekleme, silme ve arama işlemlerinde dinamik etkileşim sağlandı.
 - **JSON**: Not verileri geçici olarak tarayıcıda depolandı (isteğe bağlı olarak bir backend ile kalıcı depolama sağlanabilir).
 
-## Kurulum
-
-### 1. Bu projeyi bilgisayarınıza klonlayın:
-   git clone URLYİ GİRİN
-### 2. Proje dizinine gidin:
-cd hello-kitty-not-defteri
-### 3. Projeyi yerel sunucunuzda çalıştırın:
-Bir web sunucusu kullanıyorsanız, dizini kök klasörüne yerleştirerek projeyi çalıştırabilirsiniz.
-Alternatif olarak, tarayıcınızda index.html dosyasını açarak doğrudan projeyi inceleyebilirsiniz.
 
 ## Kullanım Adımları
 
